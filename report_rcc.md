@@ -143,10 +143,8 @@ NOTE All are classes from the scikit-learn libraries [^fn6] except the ANN which
 
 The intention was to analyse all of the models performance based on ROC graphs [^fn8] [^fn9], AuC and accuracy results. The data were split using k-fold cross validation in order to reduce the risk of overfitting. The results were generated from the framework for later analysis and model selection. 
 
-##### Model selection rseults
-
+##### Model selection results
 An example of the output from the framework (linear classifier in this case)  can be seen below. (The full results are too long and detailed to include but may be viewed at [^fn10] )
-
 ### Training sgd Train - Test Split Score:0.6620797604464407
               precision    recall  f1-score   support
 
@@ -156,7 +154,6 @@ An example of the output from the framework (linear classifier in this case)  ca
     accuracy                           0.66     73470
    macro avg       0.66      0.66      0.66     73470
 weighted avg       0.66      0.66      0.66     73470
-
 ### Test sgd Train - Test Split Score:0.6665713922764228
               precision    recall  f1-score   support
 
@@ -166,11 +163,8 @@ weighted avg       0.66      0.66      0.66     73470
     accuracy                           0.67     31488
     macro avg       0.67      0.66     0.66     31488
     weighted avg    0.67      0.67     0.66     31488
-
 ![../results/ROC_sgd_best_True_fold_0.png](results/ROC_sgd_best_True_fold_0.png)
 ![../results/PRC_sgd_best_True_fold_0.png](results/PRC_sgd_best_True_fold_0.png)
-
-
 | Model | Accuracy | AuC |   f1   |
 |---:|---------:|-------------:|-------------:|
 | SGD |  0.67 | 0.68 | 0.66 |
@@ -180,14 +174,10 @@ weighted avg       0.66      0.66      0.66     73470
 | KNN | 0.69 | 0.72 | 0.69 |
 | ANN | 0.70 | * | * |
 
-
-
-
 From the results of the iterative testing the Random Forest model was chosen as it had the highest accuracy and AuC scores. 
 
 ![ROC Forest](results/Forest_ROC.png)
 ![PRC Forest](results/Forest_PRC.png)
-
 
 ### Hyperparameter Tuning
 
@@ -205,11 +195,6 @@ Initially a reasonably high score was attained (72%) but it was realised that th
 On one memorable occasion an overfiited version of the Random Forest achieved a local test accuracy of 84%. Upon submission to Kaggle and the subsequent blow to morale score of 63%. K Fold cross validation was used to reduce the risk of overfitting.
 
 The overall improvement from the Baseline was close to 10% with the last submission of the Random Forest model, with data engineered pipeline and hyperparameters tuned, gave an accuracy score of 0.72 (rounding up). The ANN model utilised Hyperband tuning gave a prediction accuracy of 70% but much less time overall was spent on this particular model.
-
-
-
-
-
 
 ### Conclusion
 
