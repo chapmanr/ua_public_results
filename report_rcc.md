@@ -72,7 +72,7 @@ After applying some simple statistical analysis to the numerical values we can s
 
 ![initial histo](results/initial_histo_results.png)
 
-
+<br>
 #### Initial Correlation Matrix
 [pandas corr](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.corr.html).
 [pearson corr](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
