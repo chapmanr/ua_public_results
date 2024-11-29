@@ -4,6 +4,7 @@
 Richard Chapman BEng(hons), CITP, CEng, FBCS
 
 [LinkedIn](https://www.linkedin.com/in/richard-c-chapman/)
+---------
 <br>
 [KDD Assignment 1 Analysis Report](report_rcc.md)
 <br>
