@@ -1,0 +1,250 @@
+<!DOCTYPE html><html><head>
+      <title>report_rcc</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\richa\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.15\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="kdd-assignment-report">KDD Assignment Report </h1>
+<h4 id="richard-chapman">Richard Chapman </h4>
+<p>MAPi PhD November 2024</p>
+<h2 id="overview"><strong>Overview</strong> </h2>
+<p>A report detailing the approach, results and potential improvements in applying machine learning and data science techniques to a shopping sales prediction problem. The results indicate that a Random Forest model with appropiate data cleaning and engineering performed most accurately on the test set data.</p>
+<h2 id="introduction"><strong>Introduction</strong> </h2>
+<p>The assignment is defined as "From the products close to expiration, which ones will be sold before the expire data?" <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup><br>
+The evaluation criteria are stated as follows :- Submissions are evaluated on Accuracy between the predicted value and the observed target.</p>
+<h2 id="methodology"><strong>Methodology</strong> </h2>
+<p>The author used a mixture of Jupyter Notebooks and Python <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup> native development utilising a Windows 11 laptop with 16Gb of memory and an NVidia Geforce RTX GPU.<br>
+<br><br>
+A standard Python based ML workflow and pipeline <sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> was used as a framework. The data clean up, feature engineering, model building and analysis were performed in a iterative manner with only the main results contained within this report.</p>
+<p>Evaluation and reporting were performed using various statistical methods including the Area under the ROC curve as it provides a better quality single value metric than accuracy <sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>.</p>
+<h2 id="data-analysis">Data Analysis </h2>
+<h3 id="initial-exploratory-data-analysis">Initial Exploratory Data Analysis </h3>
+<h4 id="data-clean-up">Data clean up </h4>
+<p>The data is provided as a set of comma seperated files split into test and training sets. The data are composed of categorical and numerical entries in a standard table format. An intial evaluation of the data shows that :-</p>
+<ul>
+<li>Numerical data contain commas and full stops in the european style.</li>
+<li>The brand data column contained differing formats for some of the same branding elements (e.g. "Marca 2", "marca 2").</li>
+<li>The data contains date entries in two differing formats.</li>
+<li>The ID columns was used as an index for the tabular data and not as a feature entry.</li>
+<li>The y training data contained similar numbers of both classes (0 and 1) and was therfore balanced.</li>
+<li>The weight column is stored as an object string but can be converted to a numerical value.</li>
+<li>The new_pvp (discount) column actually contained 2 values for new_pvp () and discount respectively.</li>
+<li>Once new_pvp and discount were seperated it was observed that the discount had been calculated incorrectly.</li>
+<li>The data contained null values.</li>
+<li>The store id is treated as a numerical value but in reality should be categorical (encoded) as the model will assume that a numerical value can be used in a statistically significant manner.</li>
+<li>Similarly the sku data should be categorically encoded for the same reasoning.</li>
+</ul>
+<h5 id="tabular-data-view">Tabular Data View </h5>
+<p><img src="results/data_head.png" alt="Tab data"></p>
+<h5 id="initial-data-types">Initial Data types </h5>
+<p><img src="results/initial_data_info.png" alt="initial data types"></p>
+<p>Initial data exploration indicated null values in several of the column data.</p>
+<p><img src="results/null_values.png" alt="null values"></p>
+<p>There are many unique values for the categorical data (especially the brand column)</p>
+<p><img src="results/categorical_unique.png" alt="unique categories"></p>
+<h3 id="statistical-analysis">Statistical Analysis </h3>
+<br>
+After applying some simple statistical analysis to the numerical values we can see that :-
+<ul>
+<li>The 'labelqty' value is only ever 1.0 and is therefore removed from the preprocessed data.</li>
+<li>The numerical values require scaling prior to fitting any models.</li>
+<li>Some of the data distributions are skewed (e.g. profit) and may require transforming to provide the learning models a more 'normal' distribution.</li>
+<li>There may be some new features that can be derived form the quantitative and qualitative data.</li>
+</ul>
+<h3 id="initial-statistics">Initial statistics </h3>
+<p><img src="results/initial_stats.png" alt="Initial describe"></p>
+<p><img src="results/initial_histo_results.png" alt="initial histo"></p>
+<h4 id="initial-correlation-matrix">Initial Correlation Matrix </h4>
+<p><a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.corr.html">pandas corr</a>.<br>
+<a href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient">pearson corr</a></p>
+<p><img src="results/initial_corr.png" alt="Initial Correlation"></p>
+<p>From the correlation matrix above it can be seen that Profit and Margin are correlated and the model <strong>may</strong> be improved by integrating them.</p>
+<h3 id="feature-improvement">Feature improvement </h3>
+<p>From the above analysis it can be seen that for the pre processing pipeline we will need to scale the numerical values as otherwise greater significance may be attributed to larger range data.<br>
+There are missing values and therefore we need to perform imputation on some of the data.</p>
+<p>and transform the numerical data and in addition convert the categorical data into numerical for input to the training pipeline. Before submitting the data to the pipeline we can perform some feature engineering and derive some duration and day of the week data from the dates given (after suitable reformatting). The transformation of the numerical data was carried out using the yeo-johnson method found in <sup class="footnote-ref"><a href="#fn4" id="fnref4:1">[4:1]</a></sup></p>
+<ul>
+<li>The weight column is now converted to numerical values.</li>
+<li>The discount column is correctly calculated from oldpvp and new_pvp.</li>
+<li>The date columns have been re-formatted and derived features expring_day, labelling_day and duration_days added. The expiring and labelling days are encoded as categorical values.</li>
+<li>A new column Cost derived from margin and profit is added and margin dropped as it was highly correlated with profit anyway.</li>
+</ul>
+<h4 id="after-imputation-scaling-and-further-categorical-processing">After imputation, scaling and further categorical processing </h4>
+<p><img src="results/after_feature_eng_transform.png" alt="After data fettling"></p>
+<h4 id="correlation-matrix">Correlation Matrix </h4>
+<p>After further processing it can be seen that profit and margin are still moderatley correlated but now so are discount and duration in days between labelling (which in retrospection is to be expected).<br>
+<br><br>
+<img src="results/corr_after_feature_eng.png" alt="After Proc Corr"></p>
+<p>From the correlation matrix above we can see that the profit and Cost vales are highly correlated and so we drop the new Cost feature. In addition it can be seen that new pvp and oldpvp are also highly correlated and they are also dropped as we have profit and discount coverage.</p>
+<h4 id="feature-importance">Feature Importance </h4>
+<p>Using a Random Forest estimator with default initial weights and the processing pipeline we get the following graph of the top 10 most important features.<br>
+<br><br>
+<img src="results/top_ten_features.png" alt="Top ten features"></p>
+<p>From this we can see the importance of the derived features (number_duration_days) for instance.</p>
+<h3 id="baseline-model-performance">Baseline model Performance </h3>
+<p>Using only the most basic of feature processing and no feature engineering a linear regularized model with stochastic gradient descent <a href="https://scikit-learn.org/1.5/modules/generated/sklearn.linear_model.SGDClassifier.html">SGDClassifier</a> gave an base accuracy score of <strong>63%</strong>.</p>
+<p>Using this initial feature processing, engineering and improvement  performance was utilised as a first cut baseline (using the default parametersand a stopping criterion of 10000 iterations). The baseline accuracy was determined to be <strong>64%</strong>. Thus the defined pre-processing pipeline provided an improvement.</p>
+<h2 id="experimental-design">Experimental Design </h2>
+<h3 id="model-selection">Model Selection </h3>
+<p>Choosing the correct estimator for a particular data analysis is a non-trivial exercise in of itself <sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup>. The approach taken was to iterate through a few representative machine learning models to get a coarse grain view of the performance with default (arguably sensible) parameters.</p>
+<p>In order to facilitate this a small model generation, timing and results reporting tool was developed. The models chosen by the author were</p>
+<ul>
+<li>SGD (SGDClassifier)</li>
+<li>Decision Tree (DecisionTreeClassifier)</li>
+<li>Random Forest (RandomForestClassifier)</li>
+<li>xgboost (XGBClassifier)</li>
+<li>k neighbours (KNeighborsClassifier)</li>
+<li>ANN<br>
+NOTE All are classes from the scikit-learn libraries <sup class="footnote-ref"><a href="#fn6" id="fnref6">[6]</a></sup> except the ANN which was a TensorFlow keras based model <sup class="footnote-ref"><a href="#fn7" id="fnref7">[7]</a></sup>.</li>
+</ul>
+<p>The intention was to analyse all of the models performance based on ROC graphs <sup class="footnote-ref"><a href="#fn8" id="fnref8">[8]</a></sup> <sup class="footnote-ref"><a href="#fn9" id="fnref9">[9]</a></sup>, AuC and accuracy results. The data were split using k-fold cross validation in order to reduce the risk of overfitting. The results were generated from the framework for later analysis and model selection.</p>
+<h5 id="model-selection-rseults">Model selection rseults </h5>
+<p>An example of the output from the framework (linear classifier in this case)  can be seen below. (The full results are too long and detailed to include but may be viewed at <sup class="footnote-ref"><a href="#fn10" id="fnref10">[10]</a></sup> )</p>
+<h3 id="training-sgd-train---test-split-score06620797604464407">Training sgd Train - Test Split Score:0.6620797604464407 </h3>
+<pre class="language-text">          precision    recall  f1-score   support
+
+     0.0       0.65      0.58      0.61     33972
+     1.0       0.67      0.74      0.70     39498
+
+accuracy                           0.66     73470
+</pre>
+<p>macro avg       0.66      0.66      0.66     73470<br>
+weighted avg       0.66      0.66      0.66     73470</p>
+<h3 id="test-sgd-train---test-split-score06665713922764228">Test sgd Train - Test Split Score:0.6665713922764228 </h3>
+<pre class="language-text">          precision    recall  f1-score   support
+
+     0.0       0.66      0.58      0.62     14586
+     1.0       0.67      0.74      0.70     16902
+
+accuracy                           0.67     31488
+macro avg       0.67      0.66     0.66     31488
+weighted avg    0.67      0.67     0.66     31488
+</pre>
+<p><img src="results/ROC_sgd_best_True_fold_0.png" alt="../results/ROC_sgd_best_True_fold_0.png"><br>
+<img src="results/PRC_sgd_best_True_fold_0.png" alt="../results/PRC_sgd_best_True_fold_0.png"></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">Model</th>
+<th style="text-align:right">Accuracy</th>
+<th style="text-align:right">AuC</th>
+<th style="text-align:right">f1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">SGD</td>
+<td style="text-align:right">0.67</td>
+<td style="text-align:right">0.68</td>
+<td style="text-align:right">0.66</td>
+</tr>
+<tr>
+<td style="text-align:right">Tree</td>
+<td style="text-align:right">0.71</td>
+<td style="text-align:right">0.72</td>
+<td style="text-align:right">0.71</td>
+</tr>
+<tr>
+<td style="text-align:right">Forest</td>
+<td style="text-align:right">0.72</td>
+<td style="text-align:right">0.79</td>
+<td style="text-align:right">0.72</td>
+</tr>
+<tr>
+<td style="text-align:right">XG Boost</td>
+<td style="text-align:right">0.69</td>
+<td style="text-align:right">0.76</td>
+<td style="text-align:right">0.69</td>
+</tr>
+<tr>
+<td style="text-align:right">KNN</td>
+<td style="text-align:right">0.69</td>
+<td style="text-align:right">0.72</td>
+<td style="text-align:right">0.69</td>
+</tr>
+<tr>
+<td style="text-align:right">ANN</td>
+<td style="text-align:right">0.70</td>
+<td style="text-align:right">*</td>
+<td style="text-align:right">*</td>
+</tr>
+</tbody>
+</table>
+<p>From the results of the iterative testing the Random Forest model was chosen as it had the highest accuracy and AuC scores.</p>
+<p><img src="results/Forest_ROC.png" alt="ROC Forest"><br>
+<img src="results/Forest_PRC.png" alt="PRC Forest"></p>
+<h3 id="hyperparameter-tuning">Hyperparameter Tuning </h3>
+<p>In order to attempt to improve further on the scores achieved by the winning model, hyperparameter tuning was undertaken using the scikti-learn libraries. Hyperparameter tuning can take a significant amount of time thus only the winning model (Random Forest) and the ANN deep learning model were subject to Hyperparameter tuning (purely a curiosity driven decison on the authors part).</p>
+<p>Hyperparameter tuning is the process whereby a model may be refined by altering it's internal parameters until an optimal solution is found. <sup class="footnote-ref"><a href="#fn11" id="fnref11">[11]</a></sup> Effectively, it is a search based optimisation technique. There are many versions, including brute force (grid), random search, Bayesian and genetic approaches amongst others.</p>
+<p>Initially a grid search was utilised, which proved to be a mistake as 36 hours later no results had been achieved. The random search approach to hyperparameters tuning was adopted and again several iterations of this process were performed. The parameters were stored and the promising models re-instantiated and submitted to Kaggle. The risk here, of course, is that the optimal parameters will never be found because even for random search some initial conditions and ranges have to be specified.</p>
+<h3 id="kaggle-performance">Kaggle Performance </h3>
+<p>Initially a reasonably high score was attained (72%) but it was realised that the ID parameter had been used inadvertently in the first submission. The rest of the intervening time was spent data cleaning, feature improvement. It cab be seen from the results that a baseline score with the raw data (still with some imputation and scaling but no feature engineering) produced an accuracy of 63%.</p>
+<p>On one memorable occasion an overfiited version of the Random Forest achieved a local test accuracy of 84%. Upon submission to Kaggle and the subsequent blow to morale score of 63%. K Fold cross validation was used to reduce the risk of overfitting.</p>
+<p>The overall improvement from the Baseline was close to 10% with the last submission of the Random Forest model, with data engineered pipeline and hyperparameters tuned, gave an accuracy score of 0.72 (rounding up). The ANN model utilised Hyperband tuning gave a prediction accuracy of 70% but much less time overall was spent on this particular model.</p>
+<h3 id="conclusion">Conclusion </h3>
+<p><strong>Mark Twain</strong> - <em>"It takes a thousand men to invent a telegraph, or a steam engine, or a phonograph, or a photograph, or a telephone or any other important thing—and the last man gets the credit and we forget the others. He added his little mite—that is all he did. These object lessons should teach us that ninety-nine parts of all things that proceed from the intellect are plagiarisms, pure and simple; and the lesson ought to make us modest. But nothing can do that."</em></p>
+<p>The number and variety of software libraries, models and mechanisms there are, is both enabling for rapid development and at the same time bewildering in the richness and complexity. In many ways it was hardest to "get started" with all the options available.</p>
+<p>Overall the best performing prediction model was the Random Forest using the default parameters. It was surprising how easy it was to build the pipelines and generate models compared to the amount of time spent iteratively data engineering and analysing statistics. The amount of work carried out to achieve seemingly small gains was also a surprising learning experience.</p>
+<h4 id="further-work">Further work </h4>
+<p>The iterative framework could support hyperparameter tuning for all the models supported (there was one version that ran all but it generally took 2 hours to finish so only Random Forest and ANN were supported in the end).</p>
+<p>There has to be a better way to optimise the hyperparameters. The chosen approach was random in nature for time constraint reasons. More exploration here would be interesting. In addition, with more time the data pipeline could be improved (Power transformers for instance). The deep learning ANN approach was also very promising and given time needs to be explored.</p>
+<h3 id="references">References </h3>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://www.kaggle.com/competitions/fep-competition-2425/overview">Feb Kaggle Competition</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="https://www.python.org/">Python</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>Ozdemir Sinan. Feature Engineering Bootcamp. Manning. Shelter Island. <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p>Bradley, Andrew P. (1997) The use of the area under the ROC curve in the evaluation of machine learning algorithms. Pattern Recognition, 30(7), pp. 1145-1159 <a href="#fnref4" class="footnote-backref">↩︎</a> <a href="#fnref4:1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn5" class="footnote-item"><p>scikit-learn. Choosing the right estimator <a href="https://scikit-learn.org/stable/machine_learning_map.html">right estimator</a> <a href="#fnref5" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn6" class="footnote-item"><p>scikit-learn. Machine learning in Python <a href="https://scikit-learn.org/stable/">scikit-learn</a> <a href="#fnref6" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn7" class="footnote-item"><p><a href="https://www.tensorflow.org/guide/keras">Keras</a> <a href="#fnref7" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn8" class="footnote-item"><p>Fawcett, Tom, An introduction to ROC analysis, Pattern Recognition Letters 27 (2006) 861-874 <a href="#fnref8" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn9" class="footnote-item"><p>Wolpert, David, The Lack of A Priori Distinctions Between Learning Algorithms, Neural Computation 8, no. 7 (1996): 1341-1390 <a href="#fnref9" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn10" class="footnote-item"><p><a href="https://github.com/chapmanr/ua_public_results">Chapman R public results Github Repository</a> <a href="#fnref10" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn11" class="footnote-item"><p>F. Hutter et al. (eds.), Automated Machine Learning, The Springer Series on Challenges in Machine Learning <a href="https://dl.acm.org/doi/10.5555/2188385.2188395">Link</a> <a href="#fnref11" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
