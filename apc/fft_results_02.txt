@@ -1,0 +1,391 @@
+-----------------------------------
+header ys
+parse count 585936
+Survey Scan : Zero pad: 0 Timing: -1
+fft time survey : 1003ms
+smooth time: 5ms
+smooth time: 6ms
+smooth_diff time: 21ms
+Peaks detected = 22029
+centroid time: 6ms
+
+h_filter time: 34ms
+Harmonic results size: 13158
+filter_by_intensity_ratios time: 0ms
+Filtered harmonic results size: 4284
+Time: For 1 scan took 1089 ms.
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 0 Timing: -1
+seg size 29296
+Time: For Sequential : segments 20 = 0.584607 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 0 Timing: -1
+seg size 29296
+Time: For Parallel : segments 20 = 0.0843454 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+FFTW Test : Zero pad: 0 Timing: -1
+Max value: 870
+FFTW Data size = 585935
+Time: 1068 milli seconds.
+Average acquisition Time: 106 milli seconds.
+Average FFTW - FFT time: 46 milli seconds.
+-----------------------------------
+header ys
+parse count 585936
+Survey Scan : Zero pad: 0 Timing: 100
+fft time survey : 1497ms
+smooth time: 9ms
+smooth time: 11ms
+smooth_diff time: 32ms
+Peaks detected = 22029
+centroid time: 6ms
+
+h_filter time: 54ms
+Harmonic results size: 13158
+filter_by_intensity_ratios time: 0ms
+Filtered harmonic results size: 8568
+Time: For 1 scan took 1621 ms.
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 0 Timing: 100
+seg size 29296
+Time: For Sequential : segments 20 = 0.838222 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 0 Timing: 100
+seg size 29296
+Time: For Parallel : segments 20 = 0.0821396 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+FFTW Test : Zero pad: 0 Timing: 100
+Max value: 870
+FFTW Data size = 585935
+Time: 1080 milli seconds.
+Average acquisition Time: 108 milli seconds.
+Average FFTW - FFT time: 47 milli seconds.
+-----------------------------------
+header ys
+parse count 585936
+Survey Scan : Zero pad: 0 Timing: 200
+fft time survey : 1110ms
+smooth time: 6ms
+smooth time: 6ms
+smooth_diff time: 21ms
+Peaks detected = 22029
+centroid time: 6ms
+
+h_filter time: 41ms
+Harmonic results size: 13158
+filter_by_intensity_ratios time: 0ms
+Filtered harmonic results size: 12852
+Time: For 1 scan took 1210 ms.
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 0 Timing: 200
+seg size 29296
+Time: For Sequential : segments 20 = 0.886851 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 0 Timing: 200
+seg size 29296
+Time: For Parallel : segments 20 = 0.081675 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+FFTW Test : Zero pad: 0 Timing: 200
+Max value: 870
+FFTW Data size = 585935
+Time: 1068 milli seconds.
+Average acquisition Time: 106 milli seconds.
+Average FFTW - FFT time: 50 milli seconds.
+-----------------------------------
+header ys
+parse count 585936
+Survey Scan : Zero pad: 0 Timing: 500
+fft time survey : 1682ms
+smooth time: 9ms
+smooth time: 8ms
+smooth_diff time: 35ms
+Peaks detected = 22029
+centroid time: 9ms
+
+h_filter time: 56ms
+Harmonic results size: 13158
+filter_by_intensity_ratios time: 0ms
+Filtered harmonic results size: 17136
+Time: For 1 scan took 1816 ms.
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 0 Timing: 500
+seg size 29296
+Time: For Sequential : segments 20 = 0.908779 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 0 Timing: 500
+seg size 29296
+Time: For Parallel : segments 20 = 0.0834706 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+FFTW Test : Zero pad: 0 Timing: 500
+Max value: 870
+FFTW Data size = 585935
+Time: 1133 milli seconds.
+Average acquisition Time: 113 milli seconds.
+Average FFTW - FFT time: 51 milli seconds.
+-----------------------------------
+header ys
+parse count 585936
+Survey Scan : Zero pad: 0 Timing: 1000
+fft time survey : 1407ms
+smooth time: 7ms
+smooth time: 5ms
+smooth_diff time: 23ms
+Peaks detected = 22029
+centroid time: 11ms
+
+h_filter time: 68ms
+Harmonic results size: 13158
+filter_by_intensity_ratios time: 0ms
+Filtered harmonic results size: 21420
+Time: For 1 scan took 1540 ms.
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 0 Timing: 1000
+seg size 29296
+Time: For Sequential : segments 20 = 0.894877 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 0 Timing: 1000
+seg size 29296
+Time: For Parallel : segments 20 = 0.0698898 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+FFTW Test : Zero pad: 0 Timing: 1000
+Max value: 870
+FFTW Data size = 585935
+Time: 1130 milli seconds.
+Average acquisition Time: 113 milli seconds.
+Average FFTW - FFT time: 52 milli seconds.
+-----------------------------------
+header ys
+parse count 585936
+Survey Scan : Zero pad: 1 Timing: -1
+fft time survey : 5636ms
+smooth time: 26ms
+smooth time: 26ms
+smooth_diff time: 100ms
+Peaks detected = 73045
+centroid time: 29ms
+
+h_filter time: 537ms
+Harmonic results size: 107376
+filter_by_intensity_ratios time: 2ms
+Filtered harmonic results size: 47376
+Time: For 1 scan took 6426 ms.
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 1 Timing: -1
+seg size 29296
+Time: For Sequential : segments 20 = 3.16435 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 1 Timing: -1
+seg size 29296
+Time: For Parallel : segments 20 = 0.376519 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+FFTW Test : Zero pad: 1 Timing: -1
+Max value: 870
+FFTW Data size = 4194304
+Time: 12463 milli seconds.
+Average acquisition Time: 1246 milli seconds.
+Average FFTW - FFT time: 357 milli seconds.
+-----------------------------------
+header ys
+parse count 585936
+Survey Scan : Zero pad: 1 Timing: 100
+fft time survey : 5240ms
+smooth time: 31ms
+smooth time: 37ms
+smooth_diff time: 113ms
+Peaks detected = 73045
+centroid time: 18ms
+
+h_filter time: 436ms
+Harmonic results size: 107376
+filter_by_intensity_ratios time: 1ms
+Filtered harmonic results size: 73332
+Time: For 1 scan took 5937 ms.
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 1 Timing: 100
+seg size 29296
+Time: For Sequential : segments 20 = 3.19282 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 1 Timing: 100
+seg size 29296
+Time: For Parallel : segments 20 = 0.375502 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+FFTW Test : Zero pad: 1 Timing: 100
+Max value: 870
+FFTW Data size = 4194304
+Time: 11982 milli seconds.
+Average acquisition Time: 1198 milli seconds.
+Average FFTW - FFT time: 342 milli seconds.
+-----------------------------------
+header ys
+parse count 585936
+Survey Scan : Zero pad: 1 Timing: 200
+fft time survey : 5674ms
+smooth time: 40ms
+smooth time: 33ms
+smooth_diff time: 136ms
+Peaks detected = 73045
+centroid time: 30ms
+
+h_filter time: 567ms
+Harmonic results size: 107376
+filter_by_intensity_ratios time: 2ms
+Filtered harmonic results size: 99288
+Time: For 1 scan took 6556 ms.
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 1 Timing: 200
+seg size 29296
+Time: For Sequential : segments 20 = 3.15966 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 1 Timing: 200
+seg size 29296
+Time: For Parallel : segments 20 = 0.351299 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+FFTW Test : Zero pad: 1 Timing: 200
+Max value: 870
+FFTW Data size = 4194304
+Time: 13243 milli seconds.
+Average acquisition Time: 1324 milli seconds.
+Average FFTW - FFT time: 368 milli seconds.
+-----------------------------------
+header ys
+parse count 585936
+Survey Scan : Zero pad: 1 Timing: 500
+fft time survey : 6078ms
+smooth time: 29ms
+smooth time: 36ms
+smooth_diff time: 127ms
+Peaks detected = 73045
+centroid time: 27ms
+
+h_filter time: 646ms
+Harmonic results size: 107376
+filter_by_intensity_ratios time: 2ms
+Filtered harmonic results size: 125244
+Time: For 1 scan took 6998 ms.
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 1 Timing: 500
+seg size 29296
+Time: For Sequential : segments 20 = 3.32451 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 1 Timing: 500
+seg size 29296
+Time: For Parallel : segments 20 = 0.323421 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+FFTW Test : Zero pad: 1 Timing: 500
+Max value: 870
+FFTW Data size = 4194304
+Time: 12208 milli seconds.
+Average acquisition Time: 1220 milli seconds.
+Average FFTW - FFT time: 338 milli seconds.
+-----------------------------------
+header ys
+parse count 585936
+Survey Scan : Zero pad: 1 Timing: 1000
+fft time survey : 6598ms
+smooth time: 45ms
+smooth time: 45ms
+smooth_diff time: 144ms
+Peaks detected = 73045
+centroid time: 22ms
+
+h_filter time: 674ms
+Harmonic results size: 107376
+filter_by_intensity_ratios time: 2ms
+Filtered harmonic results size: 151200
+Time: For 1 scan took 7581 ms.
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 1 Timing: 1000
+seg size 29296
+Time: For Sequential : segments 20 = 3.60531 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+Find Ion Candidate : Zero pad: 1 Timing: 1000
+seg size 29296
+Time: For Parallel : segments 20 = 0.509813 S
+11111111111111111111
+-----------------------------------
+header ys
+parse count 585936
+FFTW Test : Zero pad: 1 Timing: 1000
+Max value: 870
+FFTW Data size = 4194304
+Time: 12025 milli seconds.
+Average acquisition Time: 1202 milli seconds.
+Average FFTW - FFT time: 345 milli seconds.
+-----------------------------------
